@@ -1,0 +1,5 @@
+* text eol=lf
+*.jar -text
+vendor/** -text
+legal/LICENSE -text
+*.bat text eol=crlf

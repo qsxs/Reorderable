@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "kotlin": "2.4.20-0.1.0-08",
+  "compose": "1.12.0-0.1.0-11",
+  "gradle": "9.5.0",
+  "sourceRoot": "../reorderable/src/commonMain/kotlin",
+  "metadataPolicy": "STANDARD_LOCKED_KGP_METADATA_NO_FALLBACK",
+  "modules": {
+    "reorderable": {
+      "group": "io.github.qsxs.cpf.reorderable",
+      "upstreamVersion": "3.1.0",
+      "sourceCount": 9,
+      "license": "Apache-2.0",
+      "repository": "https://github.com/Calvin-LL/Reorderable"
+    }
+  }
+}

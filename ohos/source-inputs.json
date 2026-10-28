@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "upstream": {
+    "repository": "https://github.com/Calvin-LL/Reorderable",
+    "tag": "v3.1.0",
+    "commit": "66de5751227c440bcdbd63acc94999231ed67487"
+  },
+  "sources": {
+    "path": "vendor/reorderable-3.1.0-sources.jar",
+    "size": 25160,
+    "sha256": "71caff203ad0eacff5baea15f79ad1e668a6566c1400dbd36a35e4c12c5e5bc8",
+    "url": "https://repo.maven.apache.org/maven2/sh/calvin/reorderable/reorderable/3.1.0/reorderable-3.1.0-sources.jar"
+  },
+  "pom": {
+    "path": "vendor/reorderable-3.1.0.pom",
+    "size": 2460,
+    "sha256": "4bc4ffa48185d180dea655ead20239fc613356152888415bcb9c12405af26d96",
+    "url": "https://repo.maven.apache.org/maven2/sh/calvin/reorderable/reorderable/3.1.0/reorderable-3.1.0.pom"
+  },
+  "module": {
+    "path": "vendor/reorderable-3.1.0.module",
+    "size": 26291,
+    "sha256": "a9f2a8064192d39ef32e5bb1dbcf729e624255a1e30072e4e4d00291c194694b",
+    "url": "https://repo.maven.apache.org/maven2/sh/calvin/reorderable/reorderable/3.1.0/reorderable-3.1.0.module"
+  },
+  "license": {
+    "path": "legal/LICENSE",
+    "size": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "url": "https://raw.githubusercontent.com/Calvin-LL/Reorderable/v3.1.0/LICENSE"
+  },
+  "archiveEntryCount": 15,
+  "sourceMembers": [
+    {
+      "member": "commonMain/sh/calvin/reorderable/DragGestureDetector.kt",
+      "size": 1405,
+      "sha256": "cf45e2ebafcca2488a6910a025c70af20d8987900426240126f242142749b46c"
+    },
+    {
+      "member": "commonMain/sh/calvin/reorderable/ReorderableLazyCollection.kt",
+      "size": 32866,
+      "sha256": "dd8cd9eb1a53453cee71aa647cd174fdc8a4f8b0402466fe9493f063f80776a0"
+    },
+    {
+      "member": "commonMain/sh/calvin/reorderable/ReorderableLazyGrid.kt",
+      "size": 10888,
+      "sha256": "46c1b9fbf03d6384c0c845e1fe434c63e974457bd780d984f848e7fa64b98520"
+    },
+    {
+      "member": "commonMain/sh/calvin/reorderable/ReorderableLazyList.kt",
+      "size": 16412,
+      "sha256": "2124d6a6d267373268ec938c0c3e26dca88bd1d536376d68eeb59c1031f9ac62"
+    },
+    {
+      "member": "commonMain/sh/calvin/reorderable/ReorderableLazyStaggeredGrid.kt",
+      "size": 11378,
+      "sha256": "02db190f7281b5be8e6fd9d542d7d5da3f07bdc87ffa75fcb11ee521135c7084"
+    },
+    {
+      "member": "commonMain/sh/calvin/reorderable/ReorderableList.kt",
+      "size": 17913,
+      "sha256": "eee32f9c607830a892d7c3bbcda0a6846c3fbe3762ec5c20ac1008df92f63ec9"
+    },
+    {
+      "member": "commonMain/sh/calvin/reorderable/Scroller.kt",
+      "size": 6973,
+      "sha256": "b9fa6f8bfb20e61fe6831ebf45470b6245c45601b66c5f5b1af00851ad8d2f9b"
+    },
+    {
+      "member": "commonMain/sh/calvin/reorderable/draggable.kt",
+      "size": 3131,
+      "sha256": "eee33f889a295da5a4dc197f382f2ecb5c03120317576f73d847a81449cccaaa"
+    },
+    {
+      "member": "commonMain/sh/calvin/reorderable/util.kt",
+      "size": 2831,
+      "sha256": "eaf599e3ca11a4f97452d51e1f501b07f71fd84a61dd73f61ed01b83624b4663"
+    }
+  ],
+  "sourceSetSha256": "3e59f368de4e0066ae44a108c0b8570945bd191df6f9aad663749dd6adda742c",
+  "commonSourceSetSha256": "3e59f368de4e0066ae44a108c0b8570945bd191df6f9aad663749dd6adda742c",
+  "sourceLines": 2544,
+  "publicApi": {
+    "policy": "COMPLETE_NINE_ORIGINAL_BYTE_SOURCES_AND_OWNED_NATIVE_METADATA_IR_SIGNATURES_NO_API_SUBSET",
+    "metadataSymbols": [
+      "sh.calvin.reorderable/DragGestureDetector",
+      "sh.calvin.reorderable/DragGestureDetector.Press",
+      "sh.calvin.reorderable/DragGestureDetector.LongPress",
+      "sh.calvin.reorderable/DragGestureDetector.detect",
+      "sh.calvin.reorderable/ReorderableLazyCollectionDefaults",
+      "sh.calvin.reorderable/ReorderableLazyCollectionDefaults.ScrollThreshold",
+      "sh.calvin.reorderable/ReorderableLazyCollectionStateInterface",
+      "sh.calvin.reorderable/ReorderableLazyCollectionStateInterface.isAnyItemDragging",
+      "sh.calvin.reorderable/ScrollMoveMode",
+      "sh.calvin.reorderable/ReorderableLazyCollectionState",
+      "sh.calvin.reorderable/ReorderableLazyCollectionState.isAnyItemDragging",
+      "sh.calvin.reorderable/ReorderableCollectionItemScope",
+      "sh.calvin.reorderable/ReorderableCollectionItemScope.draggableHandle",
+      "sh.calvin.reorderable/ReorderableCollectionItemScope.longPressDraggableHandle",
+      "sh.calvin.reorderable/rememberReorderableLazyGridState",
+      "sh.calvin.reorderable/ReorderableLazyGridState",
+      "sh.calvin.reorderable/rememberReorderableLazyColumnState",
+      "sh.calvin.reorderable/rememberReorderableLazyRowState",
+      "sh.calvin.reorderable/rememberReorderableLazyListState",
+      "sh.calvin.reorderable/ReorderableLazyListState",
+      "sh.calvin.reorderable/rememberReorderableLazyStaggeredGridState",
+      "sh.calvin.reorderable/ReorderableLazyStaggeredGridState",
+      "sh.calvin.reorderable/ReorderableItem",
+      "sh.calvin.reorderable/ReorderableListState",
+      "sh.calvin.reorderable/ReorderableListState.orientation",
+      "sh.calvin.reorderable/ReorderableListItemScope",
+      "sh.calvin.reorderable/ReorderableListItemScope.draggableHandle",
+      "sh.calvin.reorderable/ReorderableListItemScope.longPressDraggableHandle",
+      "sh.calvin.reorderable/ReorderableListScope",
+      "sh.calvin.reorderable/ReorderableListScope.ReorderableItem",
+      "sh.calvin.reorderable/ReorderableColumnScope",
+      "sh.calvin.reorderable/ReorderableRowScope",
+      "sh.calvin.reorderable/ReorderableColumn",
+      "sh.calvin.reorderable/ReorderableRow",
+      "sh.calvin.reorderable/rememberScroller",
+      "sh.calvin.reorderable/Scroller",
+      "sh.calvin.reorderable/Scroller.Companion",
+      "sh.calvin.reorderable/Scroller.isScrolling",
+      "sh.calvin.reorderable/ScrollMoveMode.SWAP",
+      "sh.calvin.reorderable/ScrollMoveMode.INSERT",
+      "sh.calvin.reorderable/ReorderableColumnScope.<init>",
+      "sh.calvin.reorderable/ReorderableRowScope.<init>",
+      "sh.calvin.reorderable/ReorderableListScope.<init>"
+    ],
+    "enumLanguageGeneratedMembers": [
+      {
+        "owner": "sh.calvin.reorderable/ScrollMoveMode",
+        "entries": [
+          "SWAP",
+          "INSERT"
+        ],
+        "members": [
+          {
+            "name": "entries",
+            "declaredIrSignatures": [
+              "sh.calvin.reorderable/ScrollMoveMode.entries|#static{}entries[0]",
+              "sh.calvin.reorderable/ScrollMoveMode.entries.<get-entries>|<get-entries>#static(){}[0]"
+            ]
+          },
+          {
+            "name": "values",
+            "declaredIrSignatures": [
+              "sh.calvin.reorderable/ScrollMoveMode.values|values#static(){}[0]"
+            ]
+          },
+          {
+            "name": "valueOf",
+            "declaredIrSignatures": [
+              "sh.calvin.reorderable/ScrollMoveMode.valueOf|valueOf#static(kotlin.String){}[0]"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "privateLicense": {
+    "name": "The Apache Software License, Version 2.0",
+    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+  },
+  "originalClassifiers": [
+    {
+      "key": "sources",
+      "classifier": "official-original-sources",
+      "extension": "jar"
+    },
+    {
+      "key": "pom",
+      "classifier": "official-original",
+      "extension": "pom"
+    },
+    {
+      "key": "module",
+      "classifier": "official-original",
+      "extension": "module"
+    }
+  ],
+  "rawOriginals": [
+    {
+      "path": "vendor/reorderable-3.1.0-sources.jar",
+      "size": 25160,
+      "sha256": "71caff203ad0eacff5baea15f79ad1e668a6566c1400dbd36a35e4c12c5e5bc8"
+    },
+    {
+      "path": "vendor/reorderable-3.1.0.pom",
+      "size": 2460,
+      "sha256": "4bc4ffa48185d180dea655ead20239fc613356152888415bcb9c12405af26d96"
+    },
+    {
+      "path": "vendor/reorderable-3.1.0.module",
+      "size": 26291,
+      "sha256": "a9f2a8064192d39ef32e5bb1dbcf729e624255a1e30072e4e4d00291c194694b"
+    },
+    {
+      "path": "legal/LICENSE",
+      "size": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    }
+  ],
+  "dependencyMapping": {
+    "upstreamRootScope": "runtime",
+    "sourceScope": "implementation",
+    "stdlib": "kotlin-stdlib-common:1.9.0 is merged into CPF kotlin-stdlib default dependency",
+    "mappedRoots": [
+      "org.jetbrains.kotlin:kotlin-stdlib",
+      "org.jetbrains.compose.runtime:runtime",
+      "org.jetbrains.compose.animation:animation",
+      "org.jetbrains.compose.foundation:foundation"
+    ],
+    "candidate3.1.0-kt.2.4-01": "UNKNOWN_EXACT_ORIGIN_URL"
+  },
+  "gmm": {
+    "path": "vendor/reorderable-3.1.0.module",
+    "size": 26291,
+    "sha256": "a9f2a8064192d39ef32e5bb1dbcf729e624255a1e30072e4e4d00291c194694b",
+    "url": "https://repo.maven.apache.org/maven2/sh/calvin/reorderable/reorderable/3.1.0/reorderable-3.1.0.module"
+  },
+  "upstreamBuild": {
+    "path": "vendor/upstream-build.gradle.kts",
+    "size": 3319,
+    "sha256": "6a6cdc615b42151b3706dad3818d10e11cf1c4664ee219715fc77a9bd6dbbe87",
+    "url": "https://github.com/Calvin-LL/Reorderable/blob/66de5751227c440bcdbd63acc94999231ed67487/reorderable/build.gradle.kts"
+  },
+  "sourceRoot": "../reorderable/src/commonMain/kotlin"
+}
